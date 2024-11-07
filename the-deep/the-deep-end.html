@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/the-deep-end.css">
+        <title>The deep</title>
+        <script defer>
+            function hole1Animate() {
+                hole1 = document.getElementById("hole1");
+                hole1.setAttribute("src", "../assets/shiftingHole1.gif");
+            }
+            function hole1Stop() {
+                hole1 = document.getElementById("hole1");
+                hole1.setAttribute("src", "../assets/Hole1.gif");
+            }
+            function hole2Animate() {
+                hole1 = document.getElementById("hole2");
+                hole1.setAttribute("src", "../assets/shiftingHole2.gif");
+            }
+            function hole2Stop() {
+                hole1 = document.getElementById("hole2");
+                hole1.setAttribute("src", "../assets/Hole2.gif");
+            }
+        </script>
+    </head>
+    <body>
+        <div id="top">
+            <h1 id="welcome"><b>welcome to the deep end</b></h1>
+            <p class="message">you should wake up</p>
+            <br>
+            <p class="message" id="m2">before you forget how to</p>
+            <a href="river.html">
+                <img onmouseover="hole1Animate()" onmouseleave="hole1Stop()" class="hole" id="hole1" src="../assets/hole1.gif">
+            </a>
+            <img id="creature" src="../assets/creature.gif">
+            <img onmouseover="hole2Animate()" onmouseleave="hole2Stop()" class="hole" id="hole2" src="../assets/hole2.gif">
+        </div>
+        <div id="topBorder">
+            <div id="watcherGroup1">
+                <div id="bubble1">
+                    <img src="../assets/speechbuble.png">
+                    <p id="bubble1txt">dark, darker,<br>yet darker still</p>
+                </div>
+                <img id="watcher1" src="../assets/watcher1.gif">
+            </div>
+        </div>
+        <div id="transition"></div>
+        <div id="below">
+            <img id="limb3" src="../assets/limbs/limbs4.png">
+            <div id="limb4box">
+                <img id="limb4" src="../assets/limbs/limbs2.png">
+            </div>
+            <img id="limb5" src="../assets/limbs/limbs5.png">
+            <div id="limb6box">
+                <img id="limb6" src="../assets/limbs/limbs1.png">
+            </div>
+            <div id="beast-below">
+                <img id="limb1" src="../assets/limbs/limbs1.png">
+                <img id="beast-face" src="../assets/beast-below.png">
+                <img id="limb2" src="../assets/limbs/limbs5.png">
+            </div>
+        </div>
+    </body>
+</html>

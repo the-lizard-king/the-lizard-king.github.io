@@ -1,0 +1,29 @@
+.bikePic {
+    width: 20vw;
+    border-radius: 5%;
+}
+img[src="assets/bike1.jpg"] {
+    float: left;
+}
+#p1 {
+    font-size: 4vh;
+}
+#p2 {
+    font-size: 4vh;
+    width: 62%;
+    display: inline-block;
+}
+img[src="assets/bike2.jpg"] {
+    display: inline;
+    float: right;
+}
+a[href="my-profile.html"] {
+    display: block;
+}
+#hole1 {
+    overflow: hidden;
+    width: fit-content;
+}
+img[src="assets/hole1.gif"] {
+    transform: translateY(34vh) translateX(-18vw);
+}

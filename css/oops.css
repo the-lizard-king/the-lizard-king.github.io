@@ -1,0 +1,7 @@
+#dinghy {
+    transform: translate(75vw, 30vh);
+    width: 2vw;
+}
+img[src="assets/dinghy.png"] {
+    width: 2vw;
+}

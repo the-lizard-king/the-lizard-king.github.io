@@ -1,34 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>YT radio generator</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<link rel="icon" type="image/x-icon" href="radio-logo.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
-	<script src="script.js"></script>
-
-</head>
-<body>
-	<div id="content">
-		<div id="head">
-			<div id="title"><b>YT radio generator</b></div>
-			<br>
-			<div id="descripton">a generator that creates urls for mixes from youtube videos</div>
-		</div>
-		<div id="urlinput">
-			<div id="inputLable">Youtube url:</div>
-			<input type="text" id="YTurl" name="YTurl">
-			<input type="button" id="run" name="run" value="Go" onclick="YTtoPlaylist()">
-		</div>
-		<div id="output">
-			<button type="button" id="copy" title="copy to clipboard" onclick="copyToClipboard()"><img id="copyimg" src="clipboard.png"></button>
-			<input type="button" id="reload" name="reload" value="generate next" onclick="window.location.reload()">
-			<a id="outputText" href=""></a>
-		</div>
-	</div>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Oliver Miller</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/global.css">
+    </head>
+    <body>
+        <img src="assets/oliver.png">
+        <div id="main">
+            <p>
+                Hello world. My name is Oliver Miller and i'm a comp-sci 
+                student at university of oregon
+            </p>
+            <p>
+                I love to program, and have experiance in javascript, html, css, and java. When 
+                I'm not at my computer I enjoy biking, hiking, music(both listening and making),
+                cooking, and tinkering.
+            </p>
+            <p>
+                Below you can see more of my hobbies, my projects, and my social medias.
+            </p>
+            <a href="hobbies.html">hobbies</a>
+            <a href="projects.html">projects</a>
+            <a href="social.html">socials</a>
+        </div>
+    </body>
 </html>

@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background: url("../assets/oliver-bg.jpg");
+    background-size: cover;
+    color: white;
+    font-family: helvetica;
+}
+#main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1%;
+    border-radius: 5%;
+}
+p {
+    font-size: 22px;
+}
+a {
+    color: white;
+}

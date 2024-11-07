@@ -1,0 +1,124 @@
+:root {
+    overscroll-behavior: none;
+}
+body {
+    margin: 0px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-image: url("../assets/noise.gif");
+}
+#welcome {
+    margin: auto;
+    font-size: 9vh;
+    width: fit-content;
+    background-size: contain;
+    text-shadow: 0.5vh 0.5vh white;
+    background-image: url("../assets/fire-flames.gif");
+}
+.message {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    font-size: 3vh;
+}
+#m2 {
+    color: red;
+    font-weight: bold;
+}
+.hole {
+    cursor: grab;
+}
+#hole1 {
+    display: inline;
+    width: fit-content;
+    margin-bottom: 30vh;
+}
+#creature {
+    display: inline;
+    margin-left: 7.5vw;
+    width: 34%;
+}
+#topBorder {
+    height: 90vh;
+}
+#watcherGroup1 {
+    margin-top: 50vh;
+    float: right;
+}
+#bubble1 {
+    float: inline-start;
+}
+#bubble1txt {
+    font-size: large;
+    text-align: center;
+    position: relative;
+    float: inline-start;
+    transform: translate(150%,100%);
+}
+#watcher1 {
+    margin-top: 10vh;
+}
+#transition {
+    width: 100vw;
+    height: 10vh;
+    background-image: url(../assets/glitchBorder.gif);
+}
+#below {
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    height: 310vh;
+    background-image: url(../assets/glitchNoise.gif);
+}
+#limb3 {
+    overflow: hidden;
+    margin-left: -5vw;
+    width: 30vw;
+    transform: rotate(60deg);
+}
+#limb4box {
+    overflow: hidden;
+    position: relative;
+    margin-top: 30vh;
+    margin-right: -10vw;
+    float: right;
+    transform: rotate(-60deg);
+}
+#limb4 {
+    width: 30vw;
+}
+#limb5 {
+    display: block;
+    width: 30vw;
+    transform: rotate(60deg);
+}
+#limb6box {
+    overflow: hidden;
+    position: relative;
+    margin-top: -50vh;
+    margin-right: -10vw;
+    float: right;
+    transform: rotate(-60deg);
+}
+#limb6 {
+    width: 30vw;
+}
+#beast-below {
+    position: absolute;
+    bottom: 0;
+}
+#limb1 {
+    position: absolute;
+    bottom: 0;
+    width: 20vw;
+}
+#beast-face {
+    position: absolute;
+    bottom: 0;
+    margin-left: 22vw;
+}
+#limb2 {
+    position: absolute;
+    bottom: 0;
+    width: 28vw;
+    margin-left: 72vw;
+}
