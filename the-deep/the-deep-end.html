@@ -4,25 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/the-deep-end.css">
+        <script src="../scripts/the-deep-end.js"></script>
         <title>The deep</title>
-        <script defer>
-            function hole1Animate() {
-                hole1 = document.getElementById("hole1");
-                hole1.setAttribute("src", "../assets/shiftingHole1.gif");
-            }
-            function hole1Stop() {
-                hole1 = document.getElementById("hole1");
-                hole1.setAttribute("src", "../assets/Hole1.gif");
-            }
-            function hole2Animate() {
-                hole1 = document.getElementById("hole2");
-                hole1.setAttribute("src", "../assets/shiftingHole2.gif");
-            }
-            function hole2Stop() {
-                hole1 = document.getElementById("hole2");
-                hole1.setAttribute("src", "../assets/Hole2.gif");
-            }
-        </script>
     </head>
     <body>
         <div id="top">
@@ -31,10 +14,10 @@
             <br>
             <p class="message" id="m2">before you forget how to</p>
             <a href="river.html">
-                <img onmouseover="hole1Animate()" onmouseleave="hole1Stop()" class="hole" id="hole1" src="../assets/hole1.gif">
+                <img onmouseenter="modfiyAttrbt('hole1', 'src', '../assets/shiftingHole1.gif')" onmouseleave="modfiyAttrbt('hole1', 'src', '../assets/hole1.gif')" class="hole" id="hole1" src="../assets/hole1.gif">
             </a>
             <img id="creature" src="../assets/creature.gif">
-            <img onmouseover="hole2Animate()" onmouseleave="hole2Stop()" class="hole" id="hole2" src="../assets/hole2.gif">
+            <img onmouseenter="modfiyAttrbt('hole2', 'src', '../assets/shiftingHole2.gif')" onmouseleave="modfiyAttrbt('hole2', 'src', '../assets/hole2.gif')" class="hole" id="hole2" src="../assets/hole2.gif">
         </div>
         <div id="topBorder">
             <div id="watcherGroup1">
