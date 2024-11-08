@@ -31,3 +31,10 @@ body {
 #reload {
 	display: none;
 }
+#credits{
+	position: absolute;
+	bottom: 0;
+}
+#credits p {
+	margin: 0;
+}
