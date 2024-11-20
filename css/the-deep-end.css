@@ -14,9 +14,16 @@ body {
     text-shadow: 0.5vh 0.5vh white;
     background-image: url("../assets/fire-flames.gif");
 }
-.message {
-    margin: auto;
-    width: fit-content;
+#message {
+    border-style: groove;
+    border-width: 1vh 1vh;
+    border-color: white;
+    padding: .2vh 1vw;
+    background-color: black;
+    color: white;
+    margin: 1vh auto auto auto;
+    width: 35vw;
+    height: 19vh;
     text-align: center;
     font-size: 3vh;
 }
@@ -33,6 +40,7 @@ body {
     margin-bottom: 30vh;
 }
 #creature {
+    cursor: pointer;
     display: inline;
     margin-left: 7.5vw;
     width: 34%;

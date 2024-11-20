@@ -4,19 +4,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/the-deep-end.css">
+        <script src="../scripts/global-lib.js"></script>
         <script src="../scripts/the-deep-end.js"></script>
         <title>The deep</title>
     </head>
     <body>
         <div id="top">
             <h1 id="welcome"><b>welcome to the deep end</b></h1>
-            <p class="message">you should wake up</p>
-            <br>
-            <p class="message" id="m2">before you forget how to</p>
+            <div id="message">
+                <p>you should wake up</p>
+                <p id="m2">before you forget how to</p>
+            </div>
             <a href="river.html">
                 <img onmouseenter="modfiyAttrbt('hole1', 'src', '../assets/shiftingHole1.gif')" onmouseleave="modfiyAttrbt('hole1', 'src', '../assets/hole1.gif')" class="hole" id="hole1" src="../assets/hole1.gif">
             </a>
-            <img id="creature" src="../assets/creature.gif">
+            <img onclick="creatureTalk()" id="creature" src="../assets/creature.gif">
             <img onmouseenter="modfiyAttrbt('hole2', 'src', '../assets/shiftingHole2.gif')" onmouseleave="modfiyAttrbt('hole2', 'src', '../assets/hole2.gif')" class="hole" id="hole2" src="../assets/hole2.gif">
         </div>
         <div id="topBorder">
